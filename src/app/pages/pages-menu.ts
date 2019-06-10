@@ -23,7 +23,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Roles',
-        link: '/pages/user-admin/user-roles'
+        link: '/pages/user-admin/user-roles',
       },
     ],
   },
@@ -34,11 +34,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Menu App Spanish',
-        link: '/pages/menu-app/menu-app-es'
+        link: '/pages/menu-app/menu-app-es',
       },
       {
         title: 'Menu App English',
-        link: '/pages/menu-app/menu-app-en'
+        link: '/pages/menu-app/menu-app-en',
       },
     ],
   },

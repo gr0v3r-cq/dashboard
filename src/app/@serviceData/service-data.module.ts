@@ -11,7 +11,6 @@ import { AdmservicioService } from './_services/admservicio.service';
   declarations: [],
   providers: [
     AdmservicioService,
-  ]
-
+  ],
 })
 export class ServiceDataModule { }

@@ -7,17 +7,17 @@ import { UserAdminComponent } from './user-admin.component';
 import { UserRolesComponent } from './user-roles/user-roles.component';
 
 const components = [
-	UserAdminComponent,
-	UserRolesComponent,
-]
+  UserAdminComponent,
+  UserRolesComponent,
+];
 
 @NgModule({
   declarations: [
-  	...components,
+    ...components,
   ],
   imports: [
     ThemeModule,
     UserAdminRoutingModule,
-  ]
+  ],
 })
 export class UserAdminModule { }

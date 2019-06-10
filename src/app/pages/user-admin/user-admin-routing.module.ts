@@ -8,14 +8,20 @@ import { UserRolesComponent } from './user-roles/user-roles.component';
 const routes: Routes = [{
   path: '',
   component: UserAdminComponent,
-  children: [ {
-    path: 'user-roles',
-    component: UserRolesComponent,
-  }],
+  children: [
+    {
+      path: 'user-roles',
+      component: UserRolesComponent,
+    },
+  ],
 }];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  imports: [
+    RouterModule.forChild(routes),
+  ],
+  exports: [
+    RouterModule,
+  ],
 })
 export class UserAdminRoutingModule { }
